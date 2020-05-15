@@ -2,32 +2,35 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
+    <title>Puppy Landing Page</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <header id="header">
+      <div>
+        <img id="header-img" src="https://cdn.sanity.io/images/0vv8moc6/dvm360/81e9bbc1fe445afd4c888497d6e8e4d8abcd9029-450x274.jpg">
+      </div>
       <div class="logo">
-         <img id="header-img" src="https://cdn.sanity.io/images/0vv8moc6/dvm360/81e9bbc1fe445afd4c888497d6e8e4d8abcd9029-450x274.jpg">
          <nav id="nav-bar">
-           <ul>
-             <li>
-               <a class="nav-link" href="#about-us">about us</a>
-              </li>
-             <li>
-              <a class="nav-link" href="#available-pupis">available pupis</a>
-            </li>
-             <li>
-              <a class="nav-link" href="#contact-us">contact us</a>
-            </li>
-           </ul>
+          <br><br>
+             
+               <a class="nav-link" href="#about-us">About Us</a>&nbsp; &nbsp; &nbsp; 
+              
+             
+              <a class="nav-link" href="#available-pupis">Available puppies</a>&nbsp; &nbsp; &nbsp; 
+            
+  
+              <a class="nav-link" href="#contact-us">Contact Us</a>&nbsp; &nbsp; &nbsp; 
+            
+           
          </nav>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         </div>   
     </header>
   <section id="about-us">
-    <div>
+    <div><br><br><br><br><br>
       <p>Every Keystone Puppies Breeder complies with laws and regulations relating to the puppies they raise, the dogs they breed, and the facilities where our furry friends live.
         Easily find the perfect breed and the perfect puppy that is just right for you. Our site is full of information and choices, making it easy for you.
         </p>
@@ -42,11 +45,19 @@
   <section id="contact-us">
     <div>
       <ul>
-        <li>e-mail</li>
-        <li>999-999-999</li>
-        <li>direction</li>
+        <li>E-mail: info@breeders.com</li>
+        <li>Tel: 999-999-999</li>
+        <li>Address: 5th Street</li>
       </ul>
     </div>
+    <div>
+      <form id = "form" action= "https://www.freecodecamp.com/email-submit">
+        <input name = "First-Name" id = "name" type="name" placeholder="First Name"><br><br>
+        <input email = "email" id = "email" type="email" placeholder="E-mail address"><br><br>
+        <input submit = "submit" id = "submit" type="submit" value="Submit" class = "btn"><br><br>
+      </form>
+    </div>
+    <iframe id = "video" width="806" height="453" src="https://www.youtube.com/embed/ksSDEPp3hGg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <script  src="js/index.js"></script>
   </body>
 </html>

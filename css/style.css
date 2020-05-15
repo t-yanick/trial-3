@@ -1,13 +1,37 @@
 #header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
     
 }
+
+@media header {
+    width: 50%;
+}
+
+body{
+    display: flex;
+    background-color: khaki;
+}
+
 #header-img{
    width: 100px;
    height: 100px;;
 }
 
 #nav-bar{
+    position: fixed;
+    top: 0;
+    left: 400px;
+    width: 100%
 
+}
+
+ul{
+    margin: auto;
+    padding: 0%;
 }
 
 .nav-link{
@@ -15,6 +39,7 @@
 }
 
 #about-us{
+    text-align: center;
 
 }
 
@@ -28,16 +53,53 @@
 
 #pupy-1{
     width: 100px;
-    height: 100px;;
+    height: 100px;
+    
 }
 
 #pupy-2{
     width: 100px;
-    height: 100px;;
+    height: 100px;
+    
 }
 
 #pupy-3{
     width: 100px;
-    height: 100px;;
+    height: 100px;
+    
 }
  
+#video{
+    align: center;
+
+}
+
+#form{
+    box-align: center
+
+}
+
+#name{
+    padding: 0px;
+    border: lightblue;
+    height: 25px;
+    box-align: center;
+
+}
+
+#email{
+    padding: 0px;
+    border: lightblue;
+    height: 25px;
+    box-align: center;
+
+}
+
+#submit{
+    box-align: center;
+
+}
+
+.btn{
+
+}
